@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
 
-float principal_amount, rate, time, simple_interest;
+float principle_amount, rate, time, simple_interest;
 
-printf("Enter Principal Amount\n");
+printf("Enter Principle Amount\n");
 
-scanf("%f", &principal_amount);
+scanf("%f", &principle_amount);
 
 printf("Enter Rate\n");
 
@@ -17,10 +17,9 @@ printf("Enter Time\n");
 
 scanf("%f", &time);
 
-simple_interest = principal_amount * rate * time * 0.01 ; 
+simple_interest = principle_amount * rate * time * 0.01 ; 
 
 printf("The Simple Interest is %f %% ", simple_interest);
  
-return 0;
 
 }
